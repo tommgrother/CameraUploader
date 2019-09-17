@@ -38,9 +38,10 @@
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(201, 61);
+            this.btnUpload.Location = new System.Drawing.Point(275, 162);
+            this.btnUpload.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(75, 23);
+            this.btnUpload.Size = new System.Drawing.Size(100, 28);
             this.btnUpload.TabIndex = 0;
             this.btnUpload.Text = "Upload";
             this.btnUpload.UseVisualStyleBackColor = true;
@@ -48,43 +49,46 @@
             // 
             // txtSource
             // 
-            this.txtSource.Location = new System.Drawing.Point(13, 35);
+            this.txtSource.Location = new System.Drawing.Point(24, 130);
+            this.txtSource.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSource.Name = "txtSource";
-            this.txtSource.Size = new System.Drawing.Size(263, 20);
+            this.txtSource.Size = new System.Drawing.Size(349, 22);
             this.txtSource.TabIndex = 1;
             this.txtSource.Text = "e:\\";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 16);
+            this.label1.Location = new System.Drawing.Point(24, 107);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
+            this.label1.Size = new System.Drawing.Size(83, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Source File:";
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(0, 100);
+            this.progressBar2.Location = new System.Drawing.Point(0, 210);
+            this.progressBar2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(296, 23);
+            this.progressBar2.Size = new System.Drawing.Size(395, 28);
             this.progressBar2.TabIndex = 3;
             // 
             // frmCameraUpload
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(296, 124);
+            this.ClientSize = new System.Drawing.Size(396, 251);
             this.Controls.Add(this.progressBar2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSource);
             this.Controls.Add(this.btnUpload);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmCameraUpload";
             this.Text = "Camera Upload";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
